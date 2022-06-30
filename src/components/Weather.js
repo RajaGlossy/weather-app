@@ -48,6 +48,7 @@ function WeatherApp() {
       <Row className="justify-content-center my-auto">
         <Col md="4">
           <div>
+            <p>Search to Know the weather report</p>
             <ReactSearchAutocomplete
               items={state}
               onSearch={handleOnSearch}
@@ -59,10 +60,10 @@ function WeatherApp() {
         </Col>
       </Row>
       <Row className="mt-5 justify-content-center position-inherit">
-        <Col md="4">
+        <Col md="6">
           <Card
-            class={condition ? "bg-hot" : "bg-cool"}
-            className="bg-dark position-static"
+            class={condition ? "bg-hot d-block" : "bg-cool d-block"}
+            className="bg-dark position-static d-none"
           >
             <Card.Body className="">
               <Card.Title className="mb-5 text-center">Weather</Card.Title>
