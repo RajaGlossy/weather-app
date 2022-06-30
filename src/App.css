@@ -28,6 +28,37 @@
   color: #61dafb;
 }
 
+.bg-cool {
+  background: url(assets/images/giphy.gif);
+  height: 50%;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bg-hot {
+  background: url(assets/images/CYK.gif);
+  height: 50%;
+  background-repeat: no-repeat;
+  color: black;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #481d36,
+    #5b3355,
+    #6c4b75,
+    #786598,
+    #8181ba,
+    #748cc6,
+    #6598d0,
+    #53a3d7,
+    #2b9ec5,
+    #0097af,
+    #009098,
+    #11877f
+  );
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
